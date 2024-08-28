@@ -1,0 +1,201 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+body{
+
+    /* overflow: hidden; */
+}
+.header{
+    position: sticky;
+    top: 0;
+    z-index:9999 ;
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.sticky{
+    width: 100%;
+   
+}
+.hero{
+    width: 100%;
+    background-image:url(https://media.istockphoto.com/id/1338319555/vector/smooth-blend-rainbow-glow-abstract-background.jpg?s=612x612&w=0&k=20&c=LPA20OPGWr99oB3pNT7RABEodDZa24Yd3J8aIaVUq4o=) ;
+    background-position: center;
+    height: 650px;
+    padding: 10px 10%;
+    background-size: cover;
+    overflow: hidden;
+}
+.btn1{
+    text-decoration: none;
+    display: inline-block;
+    padding: 14px 40px;
+    color: #fff;
+    background-image: linear-gradient(45deg,#df4881, #c44047);
+    font-size: 14px;
+    border-radius: 30px;
+    border-top-right-radius: 0;
+}
+.Contant{
+    margin-top: 10%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Contant h1{
+       font-size: 70px;
+       color: #222;
+}
+.Contant p{
+    margin: 10px 0 30px;
+    color: #333;
+}
+.Contant .btn1:hover{
+    padding: 15px 80px;
+    font-size: 15px;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    top: 20px;
+    position: relative;
+    font-size: 40px;
+    font-weight: 400;
+    color:#222;
+}
+
+.navbar{
+    width: 100%;
+    /* height: 70px;
+    border: 2px solid red; */
+    margin: 40px 12px;
+   
+}
+
+.navbar ul li{
+    margin-left: 25px;
+    display: inline-block;/
+}
+.navbar ul li a{
+    color: black;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    position: relative;
+}
+.navbar ul li a::after{
+       content:'';
+       position: absolute;
+       width: 0;
+       left: 0;
+       background-color: rgb(209,98,47);
+       height: 2px;
+       transition: 0.5s;
+       bottom: 0;
+}
+.navbar ul li a:hover::after{
+    width: 100%;
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+.section img{
+        height: 200px;
+}
+.section{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    padding: 40px;
+    margin: 10rem auto 0 auto;
+}
+.section h1{
+    color: bisque;
+    margin: 0;
+}
+.section p{
+    color: gray;
+}
+.section1{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    padding: 40px;
+    margin: 10rem auto 0 auto;
+}
+.section1 h1{
+    color: bisque;
+    margin: 0;
+}
+.section1 p{
+    color: gray;
+}
+.section1 img{
+    height: 200px;
+}
+.section2{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    padding: 40px;
+    margin: 10rem auto 0 auto;
+}
+.section2 h1{
+    color: bisque;
+    margin: 0;
+}
+.section2 p{
+    color: gray;
+}
+.section2 img{
+    height: 200px;
+}
+
+.footer{
+    /* height: 500px; */
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+}
+.toper{
+    padding: 20px;
+    text-align: center;
+}
+.toper h2{
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+}
+.toper input{
+    font-size: 15px;
+    outline: none;
+    border-color: transparent;
+    border-bottom-color:black;
+    margin-top: 20px;
+}
+.flexbox4{
+    margin-top: 70px;
+    width: 100%;
+    display: flex;
+    font-family:"Poppins", sans-serif ;
+    font-weight: 300;
+    justify-content: space-around;
+}
+.one,.two,.three,.four,.h4,p{
+    padding: 15px;
+}
+
+
+
+
+
